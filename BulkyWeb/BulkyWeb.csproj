@@ -18,13 +18,14 @@
   </ItemGroup>
 
   <ItemGroup>
+	<FrameworkReference Include="Microsoft.AspNetCore.App" />
     <ProjectReference Include="..\Bulky.DataAccsess\BulkyBook.DataAccess.csproj" />
     <ProjectReference Include="..\Bulky.Models\BulkyBook.Models.csproj" />
     <ProjectReference Include="..\Bulky.Utility\BulkyBook.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\images\product\" />
   </ItemGroup>
 
 </Project>
